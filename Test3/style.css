@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Montserrat ;
+}
+.container{
+    position: relative;
+    width: 1024px;
+    height: 849px;
+    background: #1C233D;
+}
+
+.logo{
+    position: absolute;
+    height: 32px;
+    width: 108px;
+    left: 72px;
+    top: 15px;
+    border-radius: nullpx;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    color: #E5E5E5;
+}
+.explore{
+    position: absolute;
+    width: 51px;
+    height: 18px;
+    left: 218px;
+    top: 23px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E5E5E5;
+}
+.mark{
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    left: 295px;
+    top: 23px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E5E5E5;
+}
+.art{
+    position: absolute;
+    width: 38px;
+    height: 18px;
+    left: 413px;
+    top: 23px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E5E5E5;
+}
+.coll{
+    position: absolute;
+    width: 68px;
+    height: 18px;
+    left: 481px;
+    top: 23px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E5E5E5;
+}
+.box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 242px;
+    height: 100px;
+    left: 584px;
+    top: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+.search{
+ 
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #E5E5E5;
+}
+#btn{
+    position: absolute;
+    width: 93px;
+    height: 30px;
+    left: 856px;
+    top: 18px;
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    border-radius: 5px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.textcontent{
+    display: flex;
+    flex-direction: column;
+
+}
+.bigtext{
+    position: absolute;
+    width: 400px;
+    height: 231px;
+    left: 62px;
+    top: 138px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+.minitext{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 62px;
+    top: 381px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.btn2{
+    position: absolute;
+    width: 199px;
+    height: 40px;
+    left: 60px;
+    top: 433px;
+
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    border-radius: 5px;
+    }
+.a1{
+    position: absolute;
+    width: 87px;
+    height: 46px;
+    left: 62px;
+    top: 554px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+.a2{
+    position: absolute;
+    width: 53px;
+    height: 15px;
+    left: 67px;
+    top: 599px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E5E5E5;
+}
+.a3{
+    position: absolute;
+    width: 81px;
+    height: 46px;
+    left: 220px;
+    top: 554px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+.a4{
+    position: absolute;
+    width: 52px;
+    height: 15px;
+    left: 229px;
+    top: 599px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E5E5E5;
+
+}
+.a5{
+    position: absolute;
+    width: 86px;
+    height: 46px;
+    left: 363px;
+    top: 554px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+.a6{
+    position: absolute;
+    width: 39px;
+    height: 15px;
+    left: 375px;
+    top: 599px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #E5E5E5;
+}
+
+
+.avts{
+    position: absolute;
+    width: 404px;
+    height: 494px;
+    left: 551px;
+    top: 125px;
+
+    background: #30384D;;
+}
+#avtchinh{
+    position: absolute;
+    width: 357.28px;
+    height: 370.24px;
+    left: 25.72px;
+    top: 29px;
+    background: url(image.png);
+    border-radius: 4.89425px;
+}
+#name{
+    position: absolute;
+    width: 98px;
+    height: 18px;
+    left: 32px;
+    top: 410px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+#img1{
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 284px;
+    top: 410px;
+    background: url(image.png);
+}
+#img2{
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 299px;
+    top: 410px;
+    background: url(image.png);
+}
+#img3{
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 319px;
+    top: 410px;
+    background: url(image.png);
+}
+#img4{
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 334px;
+    top: 410px;
+    background: url(image.png);
+}
+#img5{
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 354px;
+    top: 410px;
+    background: url(image.png);
+}
+#bid1{
+    position: absolute;
+    width: 48px;
+    height: 13px;
+    left: 43px;
+    top: 463px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+#bid2{
+    position: absolute;
+    width: 66px;
+    height: 13px;
+    left: 170px;
+    top: 463px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+
+}
+#bid3{
+    position: absolute;
+    width: 66px;
+    height: 13px;
+    left: 331px;
+    top: 463px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+  color: #FFFFFF;
+}
+.donator1{
+    position: absolute;
+    width: 135.71px;
+    height: auto;
+    left: 276px;
+    top: 743px;
+    
+}
+.donator2{
+    position: absolute;
+    width: 135.71px;
+    height: auto;
+    left: 457px;
+    top: 743px;
+    
+}
+.donator3{
+    position: absolute;
+    width: 135.71px;
+    height: 50px;
+    left: 629px;
+    top: 785px;
+    
+}
+
+
+
