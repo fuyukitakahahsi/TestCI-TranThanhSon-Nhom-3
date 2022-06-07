@@ -4,13 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">   
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <button id="btn" class="button-49" role="button">
-        Nhấp để lấy màu Hex
-    </button>
+<body id="body">
+    <div id="welcome">
+        <span>Màu của bạn sẽ được coppy vào clipboard sao khi ấn! Hãy chọn 1 trong 2!</span>
+        <br>
+        <br>
+    </div>
+    <div ></div>
+    <div id="buttons">
+        <button id="btn" class="button-36" role="button">
+            <span id="btnContent">Normal color
+                <br>
+                Bấm vào đây!
+            </span>
+        </button>
+        <button id="btn2" button class="button-75" role="button">
+            <span>Gradient color</span>
+        </button>
+        <p id="propertyValue">Màu bạn chọn sẽ được hiển thị ở đây!</p>
+        <div id="control">
+            <p id="takecontrol">Chọn 2 màu cố định để lấy Gradient!</p>
+            <div id="colorpick">
+                <input id="color1" type="color" name="color1" value="#ff0000">
+                <input id="color2" type="color" name="color2" value="#0000ff">
+            </div>
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
