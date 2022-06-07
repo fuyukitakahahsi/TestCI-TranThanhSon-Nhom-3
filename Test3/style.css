@@ -205,10 +205,28 @@ body{
 .imgmini:hover{
     transform: scale(3.0);
 }
+#titles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    color: #545C71;
+}
+.title:hover{
+    transform: scale(4.0);
+    cursor: pointer;
+    color: #FFFFFF;
+}
 #bid{
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 5px;
     margin-left: 25px;
     margin-right: 25px;
     font-family: 'DM Mono';
